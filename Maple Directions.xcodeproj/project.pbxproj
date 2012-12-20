@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416666E916828CFA000B7F7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416666E816828CFA000B7F7B /* UIKit.framework */; };
+		416666EB16828CFA000B7F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416666EA16828CFA000B7F7B /* Foundation.framework */; };
+		416666ED16828CFA000B7F7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416666EC16828CFA000B7F7B /* CoreGraphics.framework */; };
+		416666F316828CFA000B7F7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416666F116828CFA000B7F7B /* InfoPlist.strings */; };
+		416666F516828CFA000B7F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416666F416828CFA000B7F7B /* main.m */; };
+		416666F916828CFA000B7F7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416666F816828CFA000B7F7B /* AppDelegate.m */; };
+		416666FB16828CFA000B7F7B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 416666FA16828CFA000B7F7B /* Default.png */; };
+		416666FD16828CFA000B7F7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416666FC16828CFA000B7F7B /* Default@2x.png */; };
+		416666FF16828CFA000B7F7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 416666FE16828CFA000B7F7B /* Default-568h@2x.png */; };
+		4166670216828CFA000B7F7B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4166670016828CFA000B7F7B /* MainStoryboard.storyboard */; };
+		4166670516828CFA000B7F7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4166670416828CFA000B7F7B /* ViewController.m */; };
+		4166670D16828CFA000B7F7B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4166670C16828CFA000B7F7B /* SenTestingKit.framework */; };
+		4166670E16828CFA000B7F7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416666E816828CFA000B7F7B /* UIKit.framework */; };
+		4166670F16828CFA000B7F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416666EA16828CFA000B7F7B /* Foundation.framework */; };
+		4166671716828CFA000B7F7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4166671516828CFA000B7F7B /* InfoPlist.strings */; };
+		4166671A16828CFA000B7F7B /* Maple_DirectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4166671916828CFA000B7F7B /* Maple_DirectionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4166671016828CFA000B7F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416666DB16828CFA000B7F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416666E316828CFA000B7F7B;
+			remoteInfo = "Maple Directions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		416666E416828CFA000B7F7B /* Maple Directions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maple Directions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416666E816828CFA000B7F7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		416666EA16828CFA000B7F7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		416666EC16828CFA000B7F7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		416666F016828CFA000B7F7B /* Maple Directions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maple Directions-Info.plist"; sourceTree = "<group>"; };
+		416666F216828CFA000B7F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		416666F416828CFA000B7F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416666F616828CFA000B7F7B /* Maple Directions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maple Directions-Prefix.pch"; sourceTree = "<group>"; };
+		416666F716828CFA000B7F7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		416666F816828CFA000B7F7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		416666FA16828CFA000B7F7B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		416666FC16828CFA000B7F7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		416666FE16828CFA000B7F7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4166670116828CFA000B7F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4166670316828CFA000B7F7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4166670416828CFA000B7F7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4166670B16828CFA000B7F7B /* Maple DirectionsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maple DirectionsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4166670C16828CFA000B7F7B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4166671416828CFA000B7F7B /* Maple DirectionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Maple DirectionsTests-Info.plist"; sourceTree = "<group>"; };
+		4166671616828CFA000B7F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4166671816828CFA000B7F7B /* Maple_DirectionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maple_DirectionsTests.h; sourceTree = "<group>"; };
+		4166671916828CFA000B7F7B /* Maple_DirectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maple_DirectionsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416666E116828CFA000B7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416666E916828CFA000B7F7B /* UIKit.framework in Frameworks */,
+				416666EB16828CFA000B7F7B /* Foundation.framework in Frameworks */,
+				416666ED16828CFA000B7F7B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4166670716828CFA000B7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4166670D16828CFA000B7F7B /* SenTestingKit.framework in Frameworks */,
+				4166670E16828CFA000B7F7B /* UIKit.framework in Frameworks */,
+				4166670F16828CFA000B7F7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416666D916828CFA000B7F7B = {
+			isa = PBXGroup;
+			children = (
+				416666EE16828CFA000B7F7B /* Maple Directions */,
+				4166671216828CFA000B7F7B /* Maple DirectionsTests */,
+				416666E716828CFA000B7F7B /* Frameworks */,
+				416666E516828CFA000B7F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416666E516828CFA000B7F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416666E416828CFA000B7F7B /* Maple Directions.app */,
+				4166670B16828CFA000B7F7B /* Maple DirectionsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416666E716828CFA000B7F7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416666E816828CFA000B7F7B /* UIKit.framework */,
+				416666EA16828CFA000B7F7B /* Foundation.framework */,
+				416666EC16828CFA000B7F7B /* CoreGraphics.framework */,
+				4166670C16828CFA000B7F7B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		416666EE16828CFA000B7F7B /* Maple Directions */ = {
+			isa = PBXGroup;
+			children = (
+				416666F716828CFA000B7F7B /* AppDelegate.h */,
+				416666F816828CFA000B7F7B /* AppDelegate.m */,
+				4166670016828CFA000B7F7B /* MainStoryboard.storyboard */,
+				4166670316828CFA000B7F7B /* ViewController.h */,
+				4166670416828CFA000B7F7B /* ViewController.m */,
+				416666EF16828CFA000B7F7B /* Supporting Files */,
+			);
+			path = "Maple Directions";
+			sourceTree = "<group>";
+		};
+		416666EF16828CFA000B7F7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416666F016828CFA000B7F7B /* Maple Directions-Info.plist */,
+				416666F116828CFA000B7F7B /* InfoPlist.strings */,
+				416666F416828CFA000B7F7B /* main.m */,
+				416666F616828CFA000B7F7B /* Maple Directions-Prefix.pch */,
+				416666FA16828CFA000B7F7B /* Default.png */,
+				416666FC16828CFA000B7F7B /* Default@2x.png */,
+				416666FE16828CFA000B7F7B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4166671216828CFA000B7F7B /* Maple DirectionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4166671816828CFA000B7F7B /* Maple_DirectionsTests.h */,
+				4166671916828CFA000B7F7B /* Maple_DirectionsTests.m */,
+				4166671316828CFA000B7F7B /* Supporting Files */,
+			);
+			path = "Maple DirectionsTests";
+			sourceTree = "<group>";
+		};
+		4166671316828CFA000B7F7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4166671416828CFA000B7F7B /* Maple DirectionsTests-Info.plist */,
+				4166671516828CFA000B7F7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416666E316828CFA000B7F7B /* Maple Directions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4166671D16828CFA000B7F7B /* Build configuration list for PBXNativeTarget "Maple Directions" */;
+			buildPhases = (
+				416666E016828CFA000B7F7B /* Sources */,
+				416666E116828CFA000B7F7B /* Frameworks */,
+				416666E216828CFA000B7F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maple Directions";
+			productName = "Maple Directions";
+			productReference = 416666E416828CFA000B7F7B /* Maple Directions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4166670A16828CFA000B7F7B /* Maple DirectionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4166672016828CFA000B7F7B /* Build configuration list for PBXNativeTarget "Maple DirectionsTests" */;
+			buildPhases = (
+				4166670616828CFA000B7F7B /* Sources */,
+				4166670716828CFA000B7F7B /* Frameworks */,
+				4166670816828CFA000B7F7B /* Resources */,
+				4166670916828CFA000B7F7B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4166671116828CFA000B7F7B /* PBXTargetDependency */,
+			);
+			name = "Maple DirectionsTests";
+			productName = "Maple DirectionsTests";
+			productReference = 4166670B16828CFA000B7F7B /* Maple DirectionsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416666DB16828CFA000B7F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Splitcell Studios";
+			};
+			buildConfigurationList = 416666DE16828CFA000B7F7B /* Build configuration list for PBXProject "Maple Directions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 416666D916828CFA000B7F7B;
+			productRefGroup = 416666E516828CFA000B7F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416666E316828CFA000B7F7B /* Maple Directions */,
+				4166670A16828CFA000B7F7B /* Maple DirectionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416666E216828CFA000B7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416666F316828CFA000B7F7B /* InfoPlist.strings in Resources */,
+				416666FB16828CFA000B7F7B /* Default.png in Resources */,
+				416666FD16828CFA000B7F7B /* Default@2x.png in Resources */,
+				416666FF16828CFA000B7F7B /* Default-568h@2x.png in Resources */,
+				4166670216828CFA000B7F7B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4166670816828CFA000B7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4166671716828CFA000B7F7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4166670916828CFA000B7F7B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416666E016828CFA000B7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416666F516828CFA000B7F7B /* main.m in Sources */,
+				416666F916828CFA000B7F7B /* AppDelegate.m in Sources */,
+				4166670516828CFA000B7F7B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4166670616828CFA000B7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4166671A16828CFA000B7F7B /* Maple_DirectionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4166671116828CFA000B7F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416666E316828CFA000B7F7B /* Maple Directions */;
+			targetProxy = 4166671016828CFA000B7F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416666F116828CFA000B7F7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416666F216828CFA000B7F7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4166670016828CFA000B7F7B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4166670116828CFA000B7F7B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4166671516828CFA000B7F7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4166671616828CFA000B7F7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4166671B16828CFA000B7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4166671C16828CFA000B7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4166671E16828CFA000B7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maple Directions/Maple Directions-Prefix.pch";
+				INFOPLIST_FILE = "Maple Directions/Maple Directions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4166671F16828CFA000B7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maple Directions/Maple Directions-Prefix.pch";
+				INFOPLIST_FILE = "Maple Directions/Maple Directions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4166672116828CFA000B7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maple Directions.app/Maple Directions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maple Directions/Maple Directions-Prefix.pch";
+				INFOPLIST_FILE = "Maple DirectionsTests/Maple DirectionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4166672216828CFA000B7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maple Directions.app/Maple Directions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Maple Directions/Maple Directions-Prefix.pch";
+				INFOPLIST_FILE = "Maple DirectionsTests/Maple DirectionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416666DE16828CFA000B7F7B /* Build configuration list for PBXProject "Maple Directions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4166671B16828CFA000B7F7B /* Debug */,
+				4166671C16828CFA000B7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4166671D16828CFA000B7F7B /* Build configuration list for PBXNativeTarget "Maple Directions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4166671E16828CFA000B7F7B /* Debug */,
+				4166671F16828CFA000B7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4166672016828CFA000B7F7B /* Build configuration list for PBXNativeTarget "Maple DirectionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4166672116828CFA000B7F7B /* Debug */,
+				4166672216828CFA000B7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416666DB16828CFA000B7F7B /* Project object */;
+}
